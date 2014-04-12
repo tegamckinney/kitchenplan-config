@@ -1,0 +1,75 @@
+recipes:
+    global:
+        - dotfiles::gitconfig
+        - dotfiles::gem_setup
+        - dotfiles::vim
+        - dotfiles::workspace
+        - applications::composer
+        - applications::mysql
+        - applications::mysql_python
+        - applications::php55
+        - applications::postgresql
+        - applications::sass
+        - applications::ssh_config
+        - applications::wget
+    mac_os_x:
+        - applications::gnu-tar
+        - applications::phantomjs
+        - applications::svgo
+        - applications::sublime_text_3
+
+attributes:
+    mysql_root_password: "password"
+    terminal:
+    	color_scheme: "Pro"
+    bash-it:
+    	theme: tylenol
+	    enabled_plugins:
+	      completion:
+	        - defaults
+	        - bash-it
+	        - git
+	        - brew
+	        - gem
+	        - rake
+	        - ssh
+	      plugins:
+	        - git
+	        - ssh
+	        - ruby
+	        - rbenv
+	        - vagrant
+    homebrewalt:
+        apps:
+            - git
+            - git-extras
+            - git-flow
+            - htop-osx
+            - pwgen
+            - pv
+            - siege
+            - watch
+            - wget
+            - xmlstarlet
+        cask_apps:
+        	- codekit
+        	- github
+        	- heroku-toolbelt
+            - imageoptim
+            - imagealpha
+            - iterm2
+            - mou
+            - sequel-pro
+            - sourcetree
+            - recordit
+            - trailer
+            - vagrant
+            - virtualbox
+    nodejs:
+        apps:
+            - phonegap
+            - cordova
+            - ionic
+            - bower
+            - grunt
+            - grunt-cli

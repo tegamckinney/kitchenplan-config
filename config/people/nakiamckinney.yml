@@ -1,0 +1,17 @@
+groups:
+	- student
+	- designer
+recipes:
+    mac_os_x:
+        - osxdefaults::set_computer_name
+attributes:
+    osxdefaults:
+        computername: Oprah
+    sublime_text:
+        preferences:
+            font_size: 14
+            ignored_packages: []
+            remember_open_files: false
+            tab_size: 2
+            vintage_start_in_command_mode: true
+            vintage_use_clipboard: true
