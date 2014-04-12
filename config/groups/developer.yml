@@ -17,7 +17,6 @@ recipes:
         - applications::phantomjs
         - applications::svgo
         - applications::sublime_text_3
-
 attributes:
     mysql_root_password: "password"
     terminal:

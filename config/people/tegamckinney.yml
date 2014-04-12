@@ -5,10 +5,7 @@ recipes:
     global:
         - dotfiles::sshconfig
     mac_os_x:
-
-        # dotfiles for projects - attributes defined below
         - dotfiles::projects
-
         - osxdefaults::set_computer_name
 attributes:
     sublime_text:

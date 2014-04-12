@@ -1,6 +1,5 @@
 groups:
 	- student
-	- designer
 recipes:
     mac_os_x:
         - osxdefaults::set_computer_name
