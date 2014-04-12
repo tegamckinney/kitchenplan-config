@@ -45,6 +45,6 @@ attributes:
             - git-extras
         cask_apps:
             - onepassword
-            - charlesproxy
+            - charles
             - cord
             - sourcetree
