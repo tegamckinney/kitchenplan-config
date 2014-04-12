@@ -13,7 +13,6 @@ recipes:
         - applications::ssh_config
     mac_os_x:
         - applications::gnu-tar
-        - applications::phantomjs
         - applications::svgo
         - applications::sublime_text_3
 attributes:
