@@ -11,7 +11,6 @@ recipes:
         - applications::postgresql
         - applications::sass
         - applications::ssh_config
-        - applications::wget
     mac_os_x:
         - applications::gnu-tar
         - applications::phantomjs
