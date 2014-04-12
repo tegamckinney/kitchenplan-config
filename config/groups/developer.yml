@@ -19,25 +19,6 @@ recipes:
         - applications::sublime_text_3
 attributes:
     mysql_root_password: "password"
-    terminal:
-    	color_scheme: "Pro"
-    bash-it:
-    	theme: tylenol
-	    enabled_plugins:
-	      completion:
-	        - defaults
-	        - bash-it
-	        - git
-	        - brew
-	        - gem
-	        - rake
-	        - ssh
-	      plugins:
-	        - git
-	        - ssh
-	        - ruby
-	        - rbenv
-	        - vagrant
     homebrewalt:
         apps:
             - git
