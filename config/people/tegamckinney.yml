@@ -8,19 +8,15 @@ recipes:
         - dotfiles::projects
         - osxdefaults::set_computer_name
 attributes:
-    sublime_text:
-        preferences:
-            font_size: 14
-            ignored_packages: []
-            remember_open_files: false
-            tab_size: 2
-            vintage_start_in_command_mode: true
-            vintage_use_clipboard: true
+    authorization:
+        sudo:
+            users:
+                - tegamckinney
+            passwordless: true
+            include_sudoers_d: true
     git:
         name: Tega McKinney
         email: tega.mckinney@freshedgesolutions.com
-    osxdefaults:
-        computername: Snoopy
     dotfiles:
         vim:
             bundle:
@@ -35,11 +31,11 @@ attributes:
                 - kitchenplan-config
                 - https://github.com/tegamckinney/kitchenplan-config.git
             -
-                - mackup
-                - https://github.com/tegamckinney/mackup.git
+                - kitchenplan
+                - https://github.com/tegamckinney/kitchenplan.git
             -
-                - neglectedbytes
-                - https://github.com/tegamckinney/neglectedbytes
+                - chef-applications
+                - https://github.com/tegamckinney/chef-applications.git
     homebrewalt:
         apps:
             - git-extras
@@ -47,4 +43,14 @@ attributes:
             - onepassword
             - charles
             - cord
-            - sourcetree
+            - sourcetree    
+    sublime_text:
+        preferences:
+            font_size: 14
+            ignored_packages: []
+            remember_open_files: false
+            tab_size: 2
+            vintage_start_in_command_mode: true
+            vintage_use_clipboard: true
+    osxdefaults:
+        computername: Snoopy

@@ -55,6 +55,7 @@ attributes:
             - imageoptim
             - imagealpha
             - iterm2
+            - java
             - mou
             - sequel-pro
             - sourcetree
@@ -64,9 +65,11 @@ attributes:
             - virtualbox
     nodejs:
         apps:
-            - phonegap
-            - cordova
-            - ionic
             - bower
+            - cordova
             - grunt
             - grunt-cli
+            - ionic
+            - phonegap
+            - uglify-js
+            - uglifycss
