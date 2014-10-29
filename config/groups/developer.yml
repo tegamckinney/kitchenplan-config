@@ -4,12 +4,10 @@ recipes:
         - dotfiles::gem_setup
         - dotfiles::vim
         - dotfiles::workspace
-        - applications::composer
         - applications::mysql
         - applications::mysql_python
         - applications::php55
         - applications::postgresql
-        - applications::sass
         - applications::ssh_config
     mac_os_x:
         - applications::gnu-tar
