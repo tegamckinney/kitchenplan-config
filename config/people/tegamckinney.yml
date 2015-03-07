@@ -5,7 +5,7 @@ recipes:
     global:
         - dotfiles::sshconfig
     mac_os_x:
-        - dotfiles::projects
+        # - dotfiles::projects
         - osxdefaults::set_computer_name
 attributes:
     authorization:
@@ -26,31 +26,29 @@ attributes:
                 - airline: https://github.com/bling/vim-airline
                 - syntastic: git://github.com/scrooloose/syntastic.git
                 - nerdtree: https://github.com/scrooloose/nerdtree.git
-        projects:
-            -
-                - kitchenplan-config
-                - https://github.com/tegamckinney/kitchenplan-config.git
-            -
-                - kitchenplan
-                - https://github.com/tegamckinney/kitchenplan.git
-            -
-                - chef-applications
-                - https://github.com/tegamckinney/chef-applications.git
+        # projects:
+        #     -
+        #         - kitchenplan-config
+        #         - https://github.com/tegamckinney/kitchenplan-config.git
+        #     -
+        #         - kitchenplan
+        #         - https://github.com/tegamckinney/kitchenplan.git
+        #     -
+        #         - chef-applications
+        #         - https://github.com/tegamckinney/chef-applications.git
     homebrewalt:
         apps:
             - git-extras
         cask_apps:
-            - onepassword
             - charles
             - cord
-            - sourcetree    
     sublime_text:
         preferences:
             font_size: 14
             ignored_packages: []
             remember_open_files: false
             tab_size: 2
-            vintage_start_in_command_mode: true
-            vintage_use_clipboard: true
+            vintage_start_in_command_mode: false
+            vintage_use_clipboard: false
     osxdefaults:
         computername: Snoopy
